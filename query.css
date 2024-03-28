@@ -1,0 +1,262 @@
+body{
+    background-color: rgb(59, 88, 73)
+}
+
+#menu{
+    background-color: aliceblue;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+#yellowdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#yellowicon{
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    
+}
+
+h3{
+    font-size: 32px;
+    padding-left: 10px;
+    margin-top: 23px;
+}
+
+h4{
+    letter-spacing: 10px;
+    margin-top: -32px;
+    padding-left: 15px;
+}
+
+#big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+#bigres{
+    font-size: 85px;
+    margin-top:30px;
+    color: yellowgreen;
+}
+
+#bigweb{
+    font-size: 45px;
+    letter-spacing: 25px;
+    padding-left: 25px;
+    margin-top: -10px;
+    color: aliceblue;
+
+}
+
+#orangetextdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orangetext{
+    background: orange;
+    width: 1000px;
+    height: 85px;
+    opacity: 80%;
+    margin-top: 30px;
+}
+
+#orangepar{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#downdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(59, 88, 73);
+}
+
+#downtext{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+h5{
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+h6{
+    text-align: center;
+    font-size: 10px;   
+    margin-top: 50px;
+}
+
+#topimgs{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 0;
+}
+
+img{
+    width: 35px;
+}
+
+.topimgs{
+    width: 35px;
+    padding: 25.5px;
+}
+
+#coloredimg{
+    background-color: aqua;
+}
+
+#rightimg{
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 1000px){
+    #orangetext{
+        width: 500px;
+        height: 100px;
+    }
+    #orangepar{
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    #menu{
+        height: 75px;
+    }
+    .topimgs{
+        width: 25px;
+        padding: 15px;
+    }
+    img{
+        width: 25px;
+        margin-top: 9px;
+    }
+    #rightimg{
+        margin-right: 15px;
+    }
+    #yellowicon{
+        padding-top: 5px;
+        width: 50px;
+        height: 50px;
+        padding-left: 30px;
+    }
+    h3{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    h4{
+        font-size: 15px;
+        padding-left: 10px;
+        letter-spacing: 7px;
+        margin-top: -25px;
+    }
+    #bigres{
+        font-size: 60px;
+        margin-top: -25px;
+    }
+    #bigweb{
+        font-size: 28px;
+        letter-spacing: 20px;
+        padding-left: 22px;
+    }
+    #orangetext{
+        width: 500px;
+        height: 100px;
+    }
+    #orangepar{
+        margin-top: 10px;
+    }
+    #downtext{
+        margin-bottom: 100px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #yellowicon{
+        display: none; 
+    }
+    #yellowdiv{
+        display: none;
+    }
+    #topimgs{
+        position: relative;
+    }
+    #menu{
+        justify-content: center;
+        align-items: center;
+    }
+    #orangetext{
+        width: 260px;
+        height: 160px;
+        margin-top: 15px;
+    }
+    #bigres{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    #bigweb{
+        font-size: 20px;
+        letter-spacing: 10px;
+        padding-left: 12px;
+    }
+    #orangepar{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    #downtext{
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+    }
+    h6{
+        display: none;
+    }
+    h5{
+        font-size: 35px;
+    }
+    #yellowicon2{
+        display: contents;
+    }
+}
+
+
+@media screen and (max-height: 500px){
+    #bigres{
+        font-size: 60px;
+        margin-top: 25px;
+    }
+}
